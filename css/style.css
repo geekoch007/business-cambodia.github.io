@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    font-family: 'Noto Sans Khmer', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-item:hover:not(.active) {
+    background-color: #aaa;
+    border-radius: .45rem;
+}
