@@ -24,6 +24,9 @@
         />
         <!-- bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/script.js"></script>
         <!-- adsense -->
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9952190611247582"
      crossorigin="anonymous"></script>
@@ -169,7 +172,7 @@
                             <div class="col-12">
                                 <h4 class="h5">ពាណិជ្ជកម្ម</h4>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-md-4">
                                 <a href="#" class="text-decoration-none">
                                     <img src="img/ads-1.jfif" class="img-fluid rounded-2 w-100" alt="...">
                                 </a>
@@ -182,7 +185,7 @@
                             <!-- header -->
                             <div class="col-12 d-flex justify-content-between align-items-center">
                                 <h4 class="h5 mb-0">អត្ថបទពេញនិយមប្រចាំថ្ងៃ</h4>
-                                <a href="#" class="h6 mb-0 text-decoration-none text-danger">មើលបន្ថែម</a>
+                                <a class="h6 mb-0 text-decoration-none text-danger one-clicks" style="cursor: pointer;">មើលបន្ថែម</a>
                             </div>
                             
                             <!-- list card -->
@@ -312,7 +315,7 @@
                                 <!-- end of card 4 -->
                                 
                                 <!-- card 5 -->
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
                                     <div class="card h-100 border-0 hover-zoom">
                                         <div class="bg-image">
                                             <a href="#" class="text-decoration-none">
@@ -343,7 +346,7 @@
                                 <!-- end of card 5 -->
                                 
                                 <!-- card 6 -->
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
                                     <div class="card h-100 border-0 hover-zoom">
                                         <div class="bg-image">
                                             <a href="#" class="text-decoration-none">
@@ -373,6 +376,222 @@
                                 </div>
                                 <!-- end of card 6 -->
                                 
+                                <!-- card 1 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/card-1.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 7 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ខេត្តមាសខេត្តពេជ្រ! ត្រឹមពេលខ្លី មានរោងចក្រជាង៥០០កន្លែង សម្រុកទៅវិនិយោគ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                កច់ នាគរាជ
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                15.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 1 -->
+                                
+                                <!-- card 2 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/card-2.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 12 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    អបអរសាទរ! ទីបំផុតផ្សារទំនើបធំជាងគេនៅកម្ពុជា របស់ក្រុមហ៊ុន ជីប ម៉ុង រីថែល បើក...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                កច់ នាគរាជ
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                20.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 2 -->
+                                
+                                <!-- card 3 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/card-3.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 8 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ដំណឹងល្អ! កម្ពុជានឹងមានរោងចក្រដំឡើងរថយន្ដ Toyota តម្លៃជាង ៣៦ លានដុល្លារ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                កច់ នាគរាជ
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                50.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 3 -->
+                                
+                                <!-- card 4 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/card-4.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 5 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ក្រសួងការងារចេញប្រកាសថ្ងៃឈប់សម្រាកក្នុងឱកាសបុណ្យភ្ជុំបិណ្ឌខាងមុខនេះ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                កច់ នាគរាជ
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                98.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 4 -->
+                                
+                                <!-- card 5 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/card-5.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 18 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ខ្ចីស្រួល តែសងពិបាក! សាកប្រើតិចនិកពិសេសទាំងនេះ មិនបាច់ហត់ទារក៏...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                កច់ នាគរាជ
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                98.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 5 -->
+                                
+                                <!-- card 6 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/card-6.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 22 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ត្រៀមទឹកទុក! រដ្ឋាករទឹកស្វយ័តភ្នំពេញនឹងធ្វើការផ្អាកផ្គត់ផ្គង់ទឹករយៈពេលខ្លីសរុប៥ថ្ងៃនៅ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                កច់ នាគរាជ
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                98.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 6 -->
+                                
+                                <!-- card 1 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/card-1.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 7 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ខេត្តមាសខេត្តពេជ្រ! ត្រឹមពេលខ្លី មានរោងចក្រជាង៥០០កន្លែង សម្រុកទៅវិនិយោគ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                កច់ នាគរាជ
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                15.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 1 -->
                                 
                                 
                             </div>
@@ -385,8 +604,8 @@
                         <div class="row mt-3">
                             <!-- header -->
                             <div class="col-12 d-flex justify-content-between align-items-center">
-                                <h4 class="h5 mb-0"> អត្ថបទថ្មីៗ </h4>
-                                <a href="#" class="h6 mb-0 text-decoration-none text-danger">មើលបន្ថែម</a>
+                                <h4 class="h5 mb-0">អត្ថបទថ្មីៗ</h4>
+                                <a class="h6 mb-0 text-decoration-none text-danger two-clicks" style="cursor: pointer;">មើលបន្ថែម</a>
                             </div>
                             
                             <!-- list card -->
@@ -516,7 +735,7 @@
                                 <!-- end of card 4 -->
                                 
                                 <!-- card 5 -->
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
                                     <div class="card h-100 border-0 hover-zoom">
                                         <div class="bg-image">
                                             <a href="#" class="text-decoration-none">
@@ -547,7 +766,7 @@
                                 <!-- end of card 5 -->
                                 
                                 <!-- card 6 -->
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
                                     <div class="card h-100 border-0 hover-zoom">
                                         <div class="bg-image">
                                             <a href="#" class="text-decoration-none">
@@ -576,6 +795,223 @@
                                     </div>
                                 </div>
                                 <!-- end of card 6 -->
+                                
+                                <!-- card 1 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/news-1.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 15 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    សម្ដេចតេជោ ហ៊ុន សែន បញ្ជាក់មូលហេតុធំ២ ដែលផ្អាកការរៀបចំពិធីបុណ្យអុំទូកនៅ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                Gee Koch
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                1.50B
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 1 -->
+                                
+                                <!-- card 2 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/news-2.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 15 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    “អ៊ីអ៊ែនអឹម កាហ្វេ និង ភោជនីយដ្ឋាន” បើកសម្ពោធជាផ្លូវការ សាខា...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                Gee Koch
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                100.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 2 -->
+                                
+                                <!-- card 3 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/news-3.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 15 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ឈប់ប្រើម៉ូតូសាំង! ក្រសួងកំពុងធ្វើការជាមួយក្រុមហ៊ុនដឹកជញ្ជូនល្បីៗ ២ ដើម្បីប្ដូរឲ្យប្រើ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                Gee Koch
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                65.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 3 -->
+                                
+                                <!-- card 4 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/news-4.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 15 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    កុំធ្វើទាសករបំណុល! អ្នកជំនាញប្រាប់ថា គួរចៀសវាងរឿងទាំងនេះ បើចង់ចេញផុតពី...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                Gee Koch
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                98.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 4 -->
+                                
+                                <!-- card 5 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/news-5.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 14 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ឆ្នាំសំណាង! ត្រឹមរយៈពេល ៨ ខែឆ្នាំ២០២២នេះ កម្ពុជាទទួលបានរោងចក្រ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                Gee Koch
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                150.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 5 -->
+                                
+                                <!-- card 6 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/news-6.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 14 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    ពិបាកផ្តោតអារម្មណ៍! តើគួរធ្វើដូចម្តេចដើម្បីអាចបង្កើតលទ្ធផលការងារទ្វេដង?
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                Gee Koch
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                20.50M
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 6 -->
+                                
+                                <!-- card 1 -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 hide-show-2" style="display: none;">
+                                    <div class="card h-100 border-0 hover-zoom">
+                                        <div class="bg-image">
+                                            <a href="#" class="text-decoration-none">
+                                                <img src="img/news-1.jfif" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text fw-light text-danger mb-0 small">
+                                                September 15 2022
+                                            </p>
+                                            <h6 class="card-title">
+                                                <a href="#" class="text-decoration-none">
+                                                    សម្ដេចតេជោ ហ៊ុន សែន បញ្ជាក់មូលហេតុធំ២ ដែលផ្អាកការរៀបចំពិធីបុណ្យអុំទូកនៅ...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between text-muted bg-transparent border-0 small">
+                                            <p class="mb-0">
+                                                Gee Koch
+                                            </p>
+                                            <p class="mb-0">
+                                                <i class="fas fa-eye"></i>
+                                                1.50B
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of card 1 -->
                                 
                             </div>
                         </div>
@@ -718,7 +1154,6 @@
         
         <!-- script bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-        
         <!-- adsense -->
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9952190611247582"
      crossorigin="anonymous"></script>
@@ -732,6 +1167,6 @@
         <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-     
+        
     </body>
 </html>
